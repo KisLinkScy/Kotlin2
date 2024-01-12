@@ -10,5 +10,4 @@ fun main() {
     for (item in vehicles) {
         println("${item.displayInfo()}")
     }
-
 }

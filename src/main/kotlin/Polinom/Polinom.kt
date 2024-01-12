@@ -3,7 +3,6 @@ package Polinom
 import kotlin.math.abs
 import kotlin.math.max
 class Polinom(coef: DoubleArray) {
-
     private var coef: DoubleArray = coef.clone()
     val coefficients: DoubleArray
         get() = coef.clone() //Возвращаем копию коэффициентов полинома
