@@ -6,10 +6,7 @@ fun main() {
         Car(),
         Copter()
     )
-
     for (item in vehicles) {
         println("${item.displayInfo()}")
     }
-
-
 }
